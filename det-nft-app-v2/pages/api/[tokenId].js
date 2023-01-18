@@ -3,7 +3,7 @@ export default function handler(req, res) {
     const tokenId = req.query.tokenId;
     // As all the images are uploaded on github, we can extract the images from github directly.
     const image_url =
-   `https://raw.githubusercontent.com/TMcNeillEY/det-nft-app2/5c879ea67f8da4521251f9a7f4e349d78b4b2fd9/det-nft-app-v2/public/cryptodevs/${Number(tokenId)-1}`
+   `https://ipfs.filebase.io/ipfs/QmcfsZCGdcXyHJP8MupMQwYuSET8TFJCHUhAaoJwe4EJuP${Number(tokenId)-1}`
     // The api is sending back metadata for a Crypto Dev
     // To make our collection compatible with Opensea, we need to follow some Metadata standards
     // when sending back the response from the api
@@ -15,26 +15,26 @@ export default function handler(req, res) {
       attributes: [
         {
             "trait_type": "Languages",
-            "value": ""
+            "value": "Python"
         },
         {
             "trait_type": "Technologies",
-            "value": ""
+            "value": "Java"
         },
         {
             "trait_type": "Degree",
-            "value": ""
+            "value": "B.S."
         },
         {
             "trait_type": "Location",
-            "value": ""
+            "value": "US"
         },
         {
             "trait_type": "Certifications",
-            "value": ""
+            "value": "Google"
         } 
       ]
     });
   }
 
- // https://testnets-api.opensea.io/asset/0x9F4f7C40FB231a5c787C3E221EA18054c9DeB6A2/1/validate/ 
+ // https://testnets-api.opensea.io/asset/0xB2aF6A1F7474A350811f2AA8dF9ED5ECff992Dcb/1/validate/ 

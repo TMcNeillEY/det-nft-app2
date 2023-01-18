@@ -1,6 +1,5 @@
   // SPDX-License-Identifier: MIT
   pragma solidity ^0.8.4;
-
   import "@openzeppelin/contracts/token/ERC721/extensions/ERC721Enumerable.sol";
   import "@openzeppelin/contracts/access/Ownable.sol";
   import "./IWhitelist.sol";
@@ -58,6 +57,8 @@
           // Solidity has cool syntax for timestamps (seconds, minutes, hours, days, years)
           presaleEnded = block.timestamp + 5 minutes;
       }
+      
+ 
 
       /**
        * @dev presaleMint allows a user to mint one NFT per transaction during the presale.
