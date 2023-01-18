@@ -1,7 +1,7 @@
 // Address of the Whitelist Contract that you deployed
 const WHITELIST_CONTRACT_ADDRESS = "0xBB03cf83424E1d98853E8e96070C0D72dBE553B7";
 // URL to extract Metadata for a Crypto Dev NFT
-const METADATA_URL = `https://ipfs.filebase.io/ipfs/QmcfsZCGdcXyHJP8MupMQwYuSET8TFJCHUhAaoJwe4EJuP/`;
+const METADATA_URL = `https://ipfs.filebase.io/ipfs/QmcfsZCGdcXyHJP8MupMQwYuSET8TFJCHUhAaoJwe4EJuP`;
 
 module.exports = { WHITELIST_CONTRACT_ADDRESS, METADATA_URL };
 
