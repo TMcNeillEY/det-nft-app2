@@ -1,6 +1,6 @@
 export const config = {
     collectionName: "DET Dev",
-    collectionDescription: "DET Dev is a collection of developers in crypto",
+    collectionDescription: "DET SBK is a collection of NFTs based on skills, background and knowledge gained",
     image: "../public/cryptodevs",
     attributes: [
       {
@@ -10,10 +10,10 @@ export const config = {
         name: Technologies, values: [Sass, Script, Angular, Redux],
       },
       {
-        name: Degree, values: [Bachelors, Masters, Ph.d],
+        name: Degree, values: [Bachelors, Masters, PhD],
       },
       {
-        name: Local, values: [Americas, Europe, India]
+        name: Local, values: [Americas, Europe, India, Asia]
       },
       {
         name: Certifications, values: [Azure, Microsoft, Google, Any]

@@ -47,6 +47,7 @@
           _baseTokenURI = baseURI;
           whitelist = IWhitelist(whitelistContract);
       }
+      
 
       /**
       * @dev startPresale starts a presale for the whitelisted addresses
@@ -58,8 +59,6 @@
           presaleEnded = block.timestamp + 5 minutes;
       }
       
- 
-
       /**
        * @dev presaleMint allows a user to mint one NFT per transaction during the presale.
        */
